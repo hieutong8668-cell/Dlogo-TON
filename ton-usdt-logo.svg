@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <radialGradient id="g" cx="38%" cy="28%" r="78%">
+      <stop offset="0" stop-color="#11b67d"/>
+      <stop offset="0.55" stop-color="#079866"/>
+      <stop offset="1" stop-color="#056c4b"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#dbe3e8"/>
+      <stop offset="1" stop-color="#9caab3"/>
+    </linearGradient>
+  </defs>
+  <circle cx="512" cy="512" r="472" fill="url(#g)" stroke="#09b97b" stroke-width="18"/>
+  <circle cx="512" cy="512" r="446" fill="none" stroke="url(#rim)" stroke-width="18"/>
+  <circle cx="512" cy="512" r="420" fill="none" stroke="#06573e" stroke-width="4" opacity=".65"/>
+
+  <g fill="none" stroke="#fff" stroke-width="34" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M205 330h270L340 520 205 330Z"/>
+    <path d="M340 330v190"/>
+  </g>
+
+  <g fill="#fff">
+    <rect x="600" y="315" width="220" height="48" rx="3"/>
+    <rect x="684" y="350" width="52" height="198" rx="3"/>
+  </g>
+  <ellipse cx="710" cy="418" rx="118" ry="42" fill="none" stroke="#fff" stroke-width="20"/>
+
+  <path d="M188 608c116 90 246 106 383 56 94-34 173-86 254-158" fill="none" stroke="#fff" stroke-width="22" stroke-linecap="round" opacity=".96"/>
+  <path d="M185 610c112-34 194-106 260-206" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".82"/>
+
+  <text x="512" y="785" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="104" font-weight="700" fill="#fff" letter-spacing="2">TON-USDT</text>
+</svg>
